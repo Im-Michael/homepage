@@ -1,47 +1,59 @@
-body {
+html, body {
     margin: 0 auto;
     text-align: center;
+    background-image: url('/img/one.gif');
+    background-size: cover;
+    height: 100%;
 }
-h1{
+h1 {
     font-family: 'Vast Shadow', cursive;
     font-size: 50px;
+    color: white;
 }
 .bookmarks {
     font-size: 25px;
     padding: 30px;
 }
-.bookmarks a{
-    background-color: #ddd;
-    border: none;
-    color: black;
-    padding: 16px 32px;
+.bookmarks a {
+    background-color:black;
+    border: white solid 1px;
+    color: white;
+    padding: 15px 30px;
     text-align: center;
     font-size: 20px;
     margin: 4px 2px;
     transition: 0.3s;
-    border-radius: 25%;
+    border-radius: 15px;
     text-decoration: none;
     text-align: center;
 }
-.bookmarks a:hover{
-    background-color: #000000;
-    color: white;
+.bookmarks a:hover {
+    background-color: white;
+    color: black;
 }
 .searchbar {
     font-size: 25px;
-    border-radius: 0%;
-    border: black solid 1px;
+    border-radius: 15px;
+    border: white solid 1px;
+    text-size-adjust: 50px;
+    padding-left: 15px;
+    background-color: black;
+    color: white;
 }
+
 .button {
     font-size: 25px;
-    background-color: ddd;
-    border-radius: 25%;
-    border: black solid 1px;
+    background-color: black;
+    border-radius: 15px;
+    border: white solid 1px;
+    color: white;
 }
 .button:hover {
-    color:rgb(255, 255, 255);
-    background-color:#000000;
+    color: black;
+    background-color:white;
 }
-.weatherwidget-io {
-
+.clock {
+    margin-top: 20px;
+    width: 280px;
+    margin: 0 auto;
 }
